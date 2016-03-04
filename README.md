@@ -11,7 +11,9 @@
 ----------
 Making @Secured annotations Dynamic : 
 -------------
-@Secured annotations we have used in  - https://github.com/Abhinandan81/grails-spring-security/tree/master
+> **prerequisites:**
+ - you should have implemented spring security core : https://github.com/Abhinandan81/grails-spring-security/tree/master
+ - @Secured annotations we have used in  - https://github.com/Abhinandan81/grails-spring-security/tree/master
 implementation is “*static*” annotation, means: we can not assign newly created roles or existing roles which were not added in the @Secured  annotations , to the list of users who can access the controller action(url) at run time.
 
 ***Create a new Domain Class as  :***
