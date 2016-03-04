@@ -1,0 +1,2 @@
+# grails-spring-security-core-with-dynamic-role-mapping
+In my previous repository (https://github.com/Abhinandan81/grails-spring-security/tree/master) we have seen how to control access to the actions by using @Secured annotations. The problem with this annotations is that this are static i.e roles assigned to action(url) can't be changed run-time. So In this repository I have fixed this problem by using request mapping and dynamic role assignment to the action. 
